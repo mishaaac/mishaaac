@@ -1,7 +1,9 @@
 <div align="center">
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
+
 <!--            CRISTHIAN // BACKEND MULTIVERSE                    -->
+
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:070711,35:13091d,70:071b2d,100:4b0013&text=CRISTHIAN&fontColor=ffffff&fontSize=54&animation=fadeIn&fontAlignY=36&desc=Systems%20Engineer%20%7C%20Go%20Backend%20%7C%20Python%20%2B%20AI&descAlignY=58&descSize=18" />
@@ -12,8 +14,8 @@
 
 <p>
   <img src="https://img.shields.io/badge/Focus-Go%20Backend-071b2d?style=for-the-badge&logo=go&logoColor=00ADD8" />
+  <img src="https://img.shields.io/badge/Database-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Exploring-Python%20%2B%20AI-13091d?style=for-the-badge&logo=python&logoColor=FFD43B" />
-  <img src="https://img.shields.io/badge/Building-Backend%20Systems-4b0013?style=for-the-badge" />
 </p>
 
 <p>
@@ -48,9 +50,19 @@ func main() {
         Name:       "Cristhian",
         Alias:      "Misha",
         Profession: "Systems Engineer",
-        MainFocus:  []string{"Go", "Git", "Docker", "Backend Development"},
-        Exploring:  []string{"PostgreSQL", "Python", "AI"},
-        Goal:       "Build reliable backend systems with Go",
+        MainFocus: []string{
+            "Go",
+            "Backend Development",
+            "PostgreSQL",
+            "Docker",
+            "Software Architecture",
+        },
+        Exploring: []string{
+            "Concurrency",
+            "Python",
+            "Artificial Intelligence",
+        },
+        Goal: "Build reliable and maintainable backend systems with Go",
     }
 
     fmt.Println(me)
@@ -61,11 +73,13 @@ I'm **Cristhian**, also known as **Misha**, a **Systems Engineer** focused on ba
 
 I hold both a **Bachelor's degree in Systems Engineering** and the professional title of **Systems Engineer**.
 
-My main path is **Go backend development**. I'm continuously sharpening my understanding of Go, concurrency, databases, backend architecture, clean code, and practical software engineering.
+My main path is **Go backend development**.
 
-Alongside backend development, I'm exploring **Python and AI** as complementary tools for building smarter and more capable systems.
+I'm continuously strengthening my understanding of backend architecture, REST APIs, relational databases, concurrency, clean code, infrastructure, and practical software engineering.
 
-This GitHub is where I'll document that journey through real projects, experiments, and consistent progress — one commit at a time.
+I'm currently building backend projects with technologies such as **Go, PostgreSQL, Docker, SQL, and Git**, while also exploring **Python and Artificial Intelligence** as complementary tools.
+
+This GitHub documents that journey through real projects, experiments, architectural decisions, mistakes, refactors, and consistent progress — one commit at a time.
 
 ---
 
@@ -73,21 +87,29 @@ This GitHub is where I'll document that journey through real projects, experimen
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=go,git,docker,postgres,python&theme=dark" />
+<img src="https://skillicons.dev/icons?i=go,postgres,docker,git,python&theme=dark" />
 
 <br/><br/>
 
 <img src="https://img.shields.io/badge/Go-CORE%20LANGUAGE-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-VERSION%20CONTROL-F05032?style=for-the-badge&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-CONTAINERS-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/PostgreSQL-DATABASE-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-CONTAINERS-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Git-VERSION%20CONTROL-F05032?style=for-the-badge&logo=git&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-AI%20EXPLORATION-111827?style=for-the-badge&logo=python&logoColor=FFD43B" />
 
 </div>
 
+### Backend & Engineering
+
+`Go` · `REST APIs` · `net/http` · `SQL` · `PostgreSQL` · `pgx` · `Docker` · `Docker Compose` · `Git` · `Database Migrations` · `Structured Logging` · `Graceful Shutdown`
+
+### Architecture & Practices
+
+`Hexagonal Architecture` · `Dependency Injection` · `Repository Pattern` · `Domain Validation` · `DTOs` · `Middleware` · `Environment Configuration`
+
 ### Tools & Workflow
 
-`Go` · `Git` · `Docker` · `SQL` · `PostgreSQL` · `Python` · `Cloud Code` · `OpenCode` · `OpenAI Codex` · `Antigravity CLI`
+`Git` · `Docker` · `Claude Code` · `OpenCode` · `Codex` · `Antigravity CLI`
 
 ---
 
@@ -95,13 +117,16 @@ This GitHub is where I'll document that journey through real projects, experimen
 
 ### What I'm focusing on now
 
-- ⚙️ Deepening my knowledge of **Go**
-- 🔄 Working with **goroutines, channels, and concurrency patterns**
-- 🗄️ Strengthening my **SQL & PostgreSQL** skills
-- 🧱 Improving my backend architecture and engineering fundamentals
-- 🐳 Using **Docker** as part of my development workflow
-- 🧠 Exploring **Python for AI-oriented development**
-- 🚀 Turning what I learn into increasingly solid backend projects
+* ⚙️ Deepening my knowledge of **Go**
+* 🌐 Building **REST APIs** with Go's standard library
+* 🧱 Learning to design maintainable backend architectures
+* 🗄️ Working with **PostgreSQL, SQL, migrations, and persistence**
+* 🐳 Using **Docker and Docker Compose** in my development workflow
+* 🔄 Studying **goroutines, channels, and concurrency patterns**
+* 🛡️ Improving API concerns such as middleware, error handling, recovery, CORS, and graceful shutdown
+* 🧪 Moving toward better **testing and integration testing**
+* 🧠 Exploring **Python and AI-oriented development**
+* 🚀 Turning theory into increasingly complete backend systems
 
 > There is no finish line for learning — only the next problem to understand and build.
 
@@ -109,53 +134,190 @@ This GitHub is where I'll document that journey through real projects, experimen
 
 ## 🚀 `MISSION`
 
-My goal is to become a **Go Backend Developer** capable of building reliable, maintainable, and efficient systems.
+My goal is to become a **Go Backend Developer** capable of designing and building reliable, maintainable, and efficient systems.
 
 I want to keep growing into an engineer who can:
 
-- design clean backend services
-- build and work with APIs
-- use relational databases confidently
-- understand concurrency deeply
-- containerize applications with Docker
-- write simple, maintainable code
-- solve real-world problems
-- use AI as a tool without depending on it blindly
+* design clean backend services
+* build well-structured REST APIs
+* work confidently with relational databases
+* model business rules inside the domain
+* understand concurrency deeply
+* design maintainable application architectures
+* containerize applications with Docker
+* manage database migrations
+* handle failures gracefully
+* write simple and maintainable code
+* test systems properly
+* solve real-world engineering problems
+* use AI as an engineering tool without depending on it blindly
 
 > **Learn deeply. Build consistently. Ship with purpose.**
 
 ---
 
-## 🧪 `PROJECTS_LOADING...`
+# 🧪 `FEATURED_PROJECT`
+
+<div align="center">
+
+## ⚙️ TaskForge
+
+### Go REST API · PostgreSQL · Docker · Hexagonal Architecture
+
+<p>
+  <img src="https://img.shields.io/badge/Go-Backend-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-Database-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-Development-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Architecture-Hexagonal-4b0013?style=for-the-badge" />
+</p>
+
+</div>
+
+**TaskForge** is a task management REST API built with **Go and PostgreSQL**.
+
+The project was built to practice not only CRUD operations, but also how a backend application can be structured while keeping domain logic separated from infrastructure.
+
+### Architecture
+
+```text
+HTTP
+  ↓
+Handler
+  ↓
+Service
+  ↓
+Repository Port
+  ↓
+PostgreSQL Adapter
+```
+
+The domain remains independent from HTTP and PostgreSQL.
+
+### Features
+
+* ✅ Create tasks
+* ✅ List tasks
+* ✅ Get tasks by ID
+* ✅ Filter tasks by status
+* ✅ Update task titles
+* ✅ Update task descriptions
+* ✅ Remove optional descriptions
+* ✅ Update task status
+* ✅ Delete tasks
+* ✅ Domain validation
+* ✅ Optional fields
+* ✅ PostgreSQL persistence
+* ✅ Database migrations
+* ✅ Docker Compose development environment
+* ✅ Structured logging with `log/slog`
+* ✅ HTTP request logging
+* ✅ Panic recovery middleware
+* ✅ CORS middleware
+* ✅ Security headers
+* ✅ Graceful shutdown
+* ✅ Environment-based configuration
+
+### Backend Stack
+
+```text
+Go
+net/http
+PostgreSQL
+pgx / pgxpool
+Docker Compose
+golang-migrate
+log/slog
+godotenv
+```
+
+### Project Structure
+
+```text
+cmd/
+└── api/
+
+internal/
+├── app/
+├── task/
+├── adapter/
+│   ├── http/
+│   └── postgres/
+├── config/
+└── logger/
+
+migrations/
+```
+
+### Repository
+
+<div align="center">
+
+<a href="https://github.com/MishaAAC/taskforge">
+  <img src="https://img.shields.io/badge/VIEW%20TASKFORGE-GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</div>
+
+---
+
+## 🌀 `NEXT_PROJECTS_LOADING...`
 
 <div align="center">
 
 ```text
-╔══════════════════════════════════════════╗
-║          PROJECTS ENTERING...            ║
-║                                          ║
-║   GO BACKENDS        [ LOADING ]         ║
-║   POSTGRESQL APPS    [ LOADING ]         ║
-║   API PROJECTS       [ LOADING ]         ║
-║   PYTHON + AI        [ LOADING ]         ║
-║                                          ║
-║        SEE YOU IN THE NEXT COMMIT.       ║
-╚══════════════════════════════════════════╝
+╔══════════════════════════════════════════════╗
+║              MULTIVERSE STATUS              ║
+║                                              ║
+║   TASKFORGE          [ DEPLOYED ✓ ]          ║
+║   GO BACKENDS        [ BUILDING... ]         ║
+║   CONCURRENCY LABS   [ LOADING... ]          ║
+║   POSTGRESQL APPS    [ LOADING... ]          ║
+║   PYTHON + AI        [ EXPLORING... ]        ║
+║                                              ║
+║          SEE YOU IN THE NEXT COMMIT.         ║
+╚══════════════════════════════════════════════╝
 ```
 
 </div>
 
-I'm currently building the skills and ideas that will become the projects showcased here.
+Future repositories will continue exploring:
 
-Future repositories will include:
+* more advanced Go backend applications
+* REST APIs with larger domains
+* authentication and authorization
+* PostgreSQL-powered systems
+* concurrency-focused projects
+* Dockerized services
+* testing and integration testing
+* observability and monitoring
+* Python + AI experiments
+* progressively more complex backend architectures
 
-- Go backend applications
-- REST APIs
-- PostgreSQL-powered projects
-- concurrency-focused projects
-- Dockerized services
-- Python + AI experiments
-- progressively more complex backend systems
+---
+
+## 🧠 `ENGINEERING_MINDSET`
+
+I'm not interested in only making code **work**.
+
+I'm learning to understand:
+
+```text
+Why does this belong here?
+
+What layer should own this responsibility?
+
+What happens when this fails?
+
+How does this scale when another feature appears?
+
+Can infrastructure change without rewriting the domain?
+
+Can another developer understand this code?
+```
+
+My goal is not to memorize patterns.
+
+My goal is to understand **why they exist and when they are useful**.
 
 ---
 
@@ -173,7 +335,7 @@ Future repositories will include:
 
 <br/>
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=MishaAAC&bg_color=070711&color=e6edf3&line=ff1744&point=00a8ff&area=true&area_color=4b0013&hide_border=true" />
+<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MishaAAC&theme=github_dark&utcOffset=-5" />
 
 </div>
 
@@ -183,11 +345,15 @@ Future repositories will include:
 
 I'm open to opportunities where I can **learn, contribute, and grow**:
 
-- 💼 Junior Backend Developer roles
-- 🎓 Internships
-- 🧩 Freelance projects
-- 🤝 Developer collaborations
-- 🌍 Open-source opportunities
+* 💼 Junior Backend Developer roles
+* 🎓 Internships
+* 🧩 Freelance projects
+* 🤝 Developer collaborations
+* 🌍 Open-source opportunities
+
+I'm particularly interested in opportunities involving:
+
+`Go` · `Backend Development` · `APIs` · `PostgreSQL` · `Distributed Systems` · `Cloud & Infrastructure`
 
 ---
 
@@ -197,6 +363,10 @@ I'm open to opportunities where I can **learn, contribute, and grow**:
 
 <a href="https://www.linkedin.com/in/cristhian-albites">
   <img src="https://img.shields.io/badge/LinkedIn-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="https://github.com/MishaAAC">
+  <img src="https://img.shields.io/badge/GitHub-FOLLOW-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 </div>
@@ -209,7 +379,7 @@ I'm open to opportunities where I can **learn, contribute, and grow**:
 
 ### *"It's just a leap of faith."*
 
-**Building my universe, one commit at a time.**
+**Building my universe, one backend at a time.**
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:4b0013,45:071b2d,100:070711" />
 
